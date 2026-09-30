@@ -62,7 +62,6 @@ public:
 
     virtual void draw(sf::RenderWindow& window) = 0;
     virtual void setPosition(sf::Vector2f pos) = 0;
-    // virtual sf::Vector2f shapeLowestCoordinate() = 0; // Needs to be implemented (if it is the case, you can use anchorBottom coordinates)
     virtual sf::Vector2f getPosition() = 0;
     virtual sf::FloatRect getBounds() = 0;
 
