@@ -41,7 +41,7 @@ struct parentShapes {
 parentShapes createParentShapes()
 {
     parentShapes shapes;
-    if (!shapes.font.openFromFile("C:/Users/Stefan/Desktop/Fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf")) {
+    if (!shapes.font.openFromFile("Fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf")) {
         throw std::runtime_error("Failed to load font from file.");
     }
 
