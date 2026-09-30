@@ -193,7 +193,7 @@ public:
 	sf::RectangleShape panelBg;
 
 	RuntimeConsole() {
-		if (!font.openFromFile("C:/Users/Stefan/Desktop/Fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf")) {
+		if (!font.openFromFile("Fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf")) {
 			std::cout << "Nu s-a putut incarca fontul";
 		}
 	}
