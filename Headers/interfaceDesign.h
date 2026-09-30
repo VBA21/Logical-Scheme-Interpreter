@@ -109,7 +109,7 @@ HUD initializeHUD(int windowWidth, int windowHeight) {
 
 	HUD userInterface;
 
-	if (!font.openFromFile("C:/Users/Stefan/Desktop/Fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf"))
+	if (!font.openFromFile("Fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf"))
 	{
 		throw std::runtime_error("Failed to load font from file.");
 	}
@@ -174,7 +174,7 @@ void drawMainMenu(sf::RenderWindow& window, mainMenu& menu) {
 void showHelpWindow(sf::RenderWindow& window) {
 
 	sf::Font helpFont;
-	if (!helpFont.openFromFile("C:/Users/Stefan/Desktop/Fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf"))
+	if (!helpFont.openFromFile("Fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf"))
 	{
 		throw std::runtime_error("Failed to load font from file.");
 	}
