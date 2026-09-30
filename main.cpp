@@ -39,7 +39,7 @@ int main()
     sf::RenderWindow window(sf::VideoMode({ windowWidth, windowHeight }), "InterSchem", sf::Style::Titlebar | sf::Style::Close);
     window.setFramerateLimit(60);
 
-    if (!Block::font.openFromFile("D:/VS/Repos/Project2/Project2/Fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf"))
+    if (!Block::font.openFromFile("Fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf"))
     {
         throw std::runtime_error("Failed to load font from file.");
     }
